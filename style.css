@@ -1,0 +1,75 @@
+body {
+	width: 1040px;
+	margin: auto;
+}
+.shapka {
+	border: 2px solid black;
+}
+.lang { 
+		float: left;
+		width: 320px;
+		height: 30px;
+		}
+div { border: 1px solid red;}
+.shapka div {
+	
+	background-color: green;
+	margin: 10px;
+}
+.logo {
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+.status {
+	float: left;
+	width: 500px;
+	height: 80px;
+	}
+.name {
+	width: 320px;
+	height: 100px;
+	float: left;}
+.shapka::after {
+	content: "";
+	display: table;
+	clear: both;}
+
+
+.menu li {
+		float: left;
+		width: 100px;
+		background-color: green;
+		border-radius: 30px;
+		
+		text-align: center;
+		
+}
+.menu li a {
+	text-decoration: none;
+}
+.menu {
+	list-style: none;
+	width: 816px;
+	margin: auto;
+	margin-top: 10px;
+	border: 1px solid black;
+	}
+.menu::after  {
+	content: "";
+	display: table;
+	clear: both;
+}
+.main {
+	border: 2px solid black;
+	background: #00ff00 url("images/#");
+	height: 1000px;
+}
+.sheet {
+	width: 1000px;
+	height: 100px;
+	background-color: blue;
+	color: red;
+	margin: 10px auto;
+}
+}
