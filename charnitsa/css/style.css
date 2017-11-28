@@ -4,8 +4,8 @@ body {
 }
 .shapka {
 	border: 2px solid black;
-	<!--background-image: yellow url("shapka_back.jpg") repeat;-->
-	background-color: yellow;
+	min-height: 100px;
+	background: yellow url(nuts-2971675_1920.jpg);
 }
 .lang { 
 		float: left;
