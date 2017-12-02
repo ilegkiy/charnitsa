@@ -5,7 +5,7 @@ body {
 .shapka {
 	border: 2px solid black;
 	min-height: 100px;
-	background: yellow url(nuts-2971675_1920.jpg);
+	background-image: url(IMG_0044.jpg);
 }
 .lang { 
 		float: left;
