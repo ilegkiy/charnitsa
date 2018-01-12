@@ -10,7 +10,7 @@ header {
 	
 	
 	background-color: #2ecc71 ;
-	background: url("../shapkaback.jpg") no-repeat;
+	background: url("../images/shapkaback.jpg") no-repeat;
 	background-size: 100% 100%;
 	
 }
@@ -32,24 +32,42 @@ div { border: 1px solid red;}
 	height: 160px;
 }
 .status {
+	padding: 0px;
+	
 	float: left;
-	width: 500px;
+	width: 440px;
 	height: 80px;
-	font-size: 20px;
+	font-size: 40px;
+	font-weight: bold;
 	text-align: center;
+	color: blue;
+	line-height: 0.8em;
+	font-family: "Book Antiqua", "Arial", sans-serif;
 	
 		}
+		
 .lang {
 	text-align: right;
+	margin-bottom: 20px;
 }
 .name {
-	width: 320px;
+	
+	width: 380px;
 	height: 100px;
 	float: right;
-	text-align: center;
+	padding: 0;
+	font-family: "Book Antiqua", sans-serif;
+	font-style: italic;
+		 font-size: 80px;
+		 font-weight: bold;
+	color: red;
+	text-align: left;
 	
-	font-size: 30px;
 	}
+	
+
+	
+	
 .shapka::after {
 	content: "";
 	display: table;
